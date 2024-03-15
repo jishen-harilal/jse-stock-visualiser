@@ -1,4 +1,4 @@
-# 📈JSE Stock Visualizer
+# 📈JSE Stock Visualiser
 [![Python Version](https://img.shields.io/badge/Python-3.11-yellow.svg)](https://www.python.org/downloads/)
 [![Beautiful Soup 4 Version](https://img.shields.io/badge/Beautiful%20Soup%204-4.12.3-blue.svg)](https://pypi.org/project/beautifulsoup4/)
 [![Requests Version](https://img.shields.io/badge/Requests-2.31.0-purple.svg)](https://pypi.org/project/requests/)
@@ -8,16 +8,16 @@
 
 ## Overview
 
-The JSE Stock Visualizer is a Python script designed to automate the retrieval, processing, and visualization of real-time stock data from the ABSA webpage for Johannesburg Stock Exchange (JSE) stocks.
-The script leverages web scraping, Matplotlib for data visualization, and OpenPyXL for Excel export functionality.
+The JSE Stock Visualiser is a Python script designed to automate the retrieval, processing, and visualisation of real-time stock data from the ABSA webpage for Johannesburg Stock Exchange (JSE) stocks.
+The script leverages web scraping, Matplotlib for data visualisation, and OpenPyXL for Excel export functionality.
 
 ## Features
 
 - **Web Scraping:** The script scrapes relevant stock information from the ABSA webpage, including ticker symbols, stock names, prices, highs, lows, closes, movement percentages, and movement in ZAR from over 300 stocks.  
 ![ABSA Webpage](ABSA_JSE_SFL.png)   
-- **Data Visualization:** Utilizes Matplotlib to create a 'Market Carpet' visualization, representing stock movements with colored rectangles for each stock.  
+- **Data Visualisation:** Utilizes Matplotlib to create a 'Market Carpet' visualisation, representing stock movements with colored rectangles for each stock.  
 ![Market Carpet](MarketCarpet_1710153464.png)  
-- **Excel Export:** Generates an Excel workbook using OpenPyXL, exporting the scraped stock data along with the visualization for further analysis and reporting.  
+- **Excel Export:** Generates an Excel workbook using OpenPyXL, exporting the scraped stock data along with the visualisation for further analysis and reporting.  
 ![Excel Workbook](Workbook.png)  
 
 ## Getting Started
@@ -49,7 +49,7 @@ The script leverages web scraping, Matplotlib for data visualization, and OpenPy
    python JSE_StockVisualiser.py
    ```
 
-2. The script will scrape data, generate the 'Market Carpet' visualization, and save the results in an Excel workbook e.g.`JSE_SFL_1710153464.xlsx`.
+2. The script will scrape data, generate the 'Market Carpet' visualisation, and save the results in an Excel workbook e.g.`JSE_SFL_1710153464.xlsx`.
 
 ### Configuration
 
