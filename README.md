@@ -54,17 +54,3 @@ The script leverages web scraping, Matplotlib for data visualisation, and OpenPy
 ### Configuration
 
 - Adjust the script as needed by modifying constants or adding new features to suit your requirements.
-
-## Contributing
-
-Contributions are welcome! If you have any ideas for improvements or bug fixes, please open an issue or submit a pull request.
-
-## ©️License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Special thanks to ABSA for providing the stock data on their [webpage](https://www.absa.co.za/indices/share-information/).
-
----
