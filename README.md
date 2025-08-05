@@ -32,7 +32,7 @@ The script leverages web scraping, Matplotlib for data visualisation, and OpenPy
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/MrMatrix2108/jse-stock-visualiser.git
+   git clone https://github.com/jishen-harilal/jse-stock-visualiser.git
    ```
 
 2. Install required packages:
